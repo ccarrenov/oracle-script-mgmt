@@ -1,0 +1,4 @@
+CREATE JOBS WITH EXECUTE NEXT SCRIPT
+
+#!/bin/bash +x
+python create-user-bd.py "${HOST_NAME_BD}"  "${USER_NAME_BD}" "${PASS_BD}" "${PORT_BD}" "${SERVICE_NAME_BD}" "${USER_NAME}" "${PASS_BD_USER}"

@@ -1,0 +1,4 @@
+CREATE JOBS WITH EXECUTE NEXT SCRIPT
+
+#!/bin/bash +x
+python backup-bd.py "${HOST_NAME}"  "${PORT_HOST_NAME}" "${USER_NAME_HOST}" "${PASS_HOST}" "${ORACLE_SID}" "${ORACLE_HOME}" "${USER_NAME_BD}" "${PASS_BD}" "${SCHEME}" "${PORT_BD}" "${DATA_PUMP_DIR}"

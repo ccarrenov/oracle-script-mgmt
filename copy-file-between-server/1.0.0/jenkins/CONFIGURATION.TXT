@@ -1,0 +1,4 @@
+CREATE JOBS WITH EXECUTE NEXT SCRIPT
+
+#!/bin/bash +x
+python copy-file-between-server.py "${HOST_NAME}"  "${HOST_PORT}" "${USER_NAME}" "${SERVER_PASS}" "${FOLDER_PATH}" "${FILE_NAME}" "${HOST_NAME_SEND}" "${HOST_PORT_SEND}" "${USER_NAME_SEND}" "${SERVER_PASS_SEND}" "${FOLDER_PATH_SEND}"
