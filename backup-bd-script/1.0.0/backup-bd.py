@@ -26,7 +26,7 @@ if length_parameters == 12 :
     sufix=datetime.datetime.now().strftime(config.get('FORMATE_DATE', 'formate.folder'))
 
     print('################################################################')
-    print('############### SCRIPT BACKUP BD - DIPRES - 2019 ###############')
+    print('############### SCRIPT BACKUP BD -        - 2019 ###############')
     print('################################################################')
     print('###############       AUTHOR: CCARRENOV         ################')
     print('################################################################\n\n')
